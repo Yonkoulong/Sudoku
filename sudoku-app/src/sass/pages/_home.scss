@@ -1,0 +1,48 @@
+@import '../abstracts/variables';
+
+div {   
+    margin: auto;
+
+    .game-img {
+       width: 300px;
+    }
+
+    .enter {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 0 auto;
+
+        .name-ipt {
+            padding: 18px;
+            border: $border;
+            outline: $blue-dark;
+            margin: 10px 0px;
+            font-size: 18px;
+            color: $blue-dark;
+            font-family: "lucida handwriting","comic sans ms",sans-serif;
+        }
+        
+        .link-btn {
+            
+            .play-btn {
+                font-size: 18px;
+                text-decoration: none;
+                font-family: "lucida handwriting","comic sans ms",sans-serif;
+                color: white;
+                margin: 10px 0px;
+                height: 60px;
+                width: 100%;
+                border-radius: 50px;
+                background-image: $bg-linear;
+    
+                
+                &:hover {
+                    opacity: 0.8;
+                    cursor: pointer;
+                }
+                
+            }
+        }
+    }
+}

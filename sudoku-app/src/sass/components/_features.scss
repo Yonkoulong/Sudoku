@@ -1,0 +1,27 @@
+@import '../abstracts/variables';
+
+.features {
+    width: 100%;
+
+    .home, .back, .new-game {
+        width: 120px;
+        height: 50px;
+        border-radius: 30px;
+        background-image: $bg-linear;
+        margin-top: 20px;
+        color: white;
+        font-family: "lucida handwriting","comic sans ms",sans-serif;
+        font-weight: bold;
+        margin: 10px 20px;
+        
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+    
+    .home-link {        
+        text-decoration: none;
+        color: white;
+    }
+}
